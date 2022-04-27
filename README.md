@@ -8,6 +8,7 @@ Java mocking libraries.
 ## Development
 
 - Still working on this
+- [Example Usage](docs/exampleUsage.md)
 
 Enjoy Gucci-Mocks!
 
