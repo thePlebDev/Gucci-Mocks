@@ -20,10 +20,10 @@ import java.lang.reflect.InvocationTargetException;
  *  @ExtendWith(GucciExtension.class)
  *    public class ExampleTest {
  *
- *        @Gucci
+ *        @GucciInject
  *        private ClassToBeInjected injectedClass;
  *
- *        @Gucci
+ *        @Test
  *        public void shouldDoSomething() {
  *            injectedClass.add(100);
  *        }
