@@ -1,8 +1,8 @@
 ## Documentation
 The Gucci Mocks library currently only enables initialization
 
-###[GucciExtension](src/main/java/com/Elliott/Engineering/app/GucciExtension.java)
-- Junit5 extension used in combination with [@GucciInject](src/main/java/com/Elliott/Engineering/app/Annotations/GucciInject.java).
+### [GucciExtension](https://github.com/thePlebDev/Gucci-Mocks/blob/master/src/main/java/com/Elliott/Engineering/app/GucciExtension.java)
+- Junit5 extension used in combination with [@GucciInject](https://github.com/thePlebDev/Gucci-Mocks/blob/master/src/main/java/com/Elliott/Engineering/app/Annotations/GucciInject.java).
   Implementing the TestInstancePostProcessor interface allows this class to be called during the test instance postprocessing execution point.
 - Once the test instance postprocessing execution point is reached, this class does three main things:
 
@@ -52,12 +52,12 @@ for (Field field : annotatedField) {
         }
 ```
 - This code will loop through all the fields and if they are annotated with
-[@GucciInject](src/main/java/com/Elliott/Engineering/app/Annotations/GucciInject.java)
+[@GucciInject](https://github.com/thePlebDev/Gucci-Mocks/blob/master/src/main/java/com/Elliott/Engineering/app/Annotations/GucciInject.java)
 try to initialize them.
 
-###[@GucciInject](src/main/java/com/Elliott/Engineering/app/Annotations/GucciInject.java)
+### [@GucciInject](https://github.com/thePlebDev/Gucci-Mocks/blob/master/src/main/java/com/Elliott/Engineering/app/Annotations/GucciInject.java)
 - A runtime annotation that must be used inside a Junit5 test class that has been
-extended with the [GucciExtension](src/main/java/com/Elliott/Engineering/app/GucciExtension.java)
+extended with the [GucciExtension](https://github.com/thePlebDev/Gucci-Mocks/blob/master/src/main/java/com/Elliott/Engineering/app/GucciExtension.java)
 class.
 - Only allowed on fields which signifies them to be instantiated. 
 - A simple but useful annotation
