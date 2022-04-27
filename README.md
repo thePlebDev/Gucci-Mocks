@@ -8,7 +8,7 @@ Java mocking Frameworks. Gucci Mocks is built with Java and uses Maven as a buil
 
 ## Contributing
 - Gucci Mocks is still in the beta phase and is not yet ready for open source contributors. However, we
-do have one annotation ready `@GucciInjects`. If you are interested in using this library, please refer to
+do have one annotation ready `@GucciInject`. If you are interested in using this library, please refer to
 [Example Usage](docs/exampleUsage.md) page
 
 Enjoy Gucci-Mocks!
