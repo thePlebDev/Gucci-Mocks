@@ -1,14 +1,15 @@
 # Gucci Mocks
-- Named after my dog Gucci, this is a small and light weight mocking library for Java. Gucci Mocks' main goal is to demystify what goes on under the hood of much larger
-Java mocking libraries.
+- Named after my dog Gucci, this is a lightweight mocking library that operates on the JUnit5
+extension model. Gucci Mocks' main goal is to demystify what goes on under the hood of much larger
+Java mocking Frameworks. Gucci Mocks is built with Java and uses Maven as a build system.
 
 ## Current version is 1.x
 - Gucci-Mocks in currently on its 1.0 version
 
-## Development
-
-- Still working on this
-- [Example Usage](docs/exampleUsage.md)
+## Contributing
+- Gucci Mocks is still in the beta phase and is not yet ready for open source contributors. However, we
+do have one annotation ready `@GucciInjects`. If you are interested in using this library, please refer to
+[Example Usage](docs/exampleUsage.md) page
 
 Enjoy Gucci-Mocks!
 
